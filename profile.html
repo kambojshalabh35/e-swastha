@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .head h2
+        {
+            border-bottom: #146eb4 1px solid;
+        }
+        .card
+        {
+            margin-top: 20px;
+            width: max-content;
+            border: 2px solid #146eb4;
+            border-radius: 20px;
+            padding: 5px 25px;
+            transition: 0.2s;
+        }
+        .card:hover
+        {
+            transform: scale(1.01);
+            box-shadow: #3a5f7a 5px 5px;
+        }
+        .card p
+        {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .login-div
+        {
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-div">
+        <div class="logo">
+            <img src="/images/img.png" alt="">
+        </div>
+        <div class="title">Mr.XYZ</div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="head"><h2>My Profile</h1></div>
+            <div class="card">
+                <p>e-Health ID: 202210010006</p>
+                <p>Phone: +112149724697</p>
+                <p>Address: 34-Old Villa Downstreet London</p>
+                <p>ID Synchronised: Passport</p>
+                <p>ID Number: ABC1234XY</p>
+                <p>Last Bill Updated: 2022/01/15 - INR 45000/-</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

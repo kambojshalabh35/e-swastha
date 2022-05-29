@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Records</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .head h2
+        {
+            border-bottom: #146eb4 1px solid;
+        }
+        .card
+        {
+            margin-top: 20px;
+            width: max-content;
+            border: 2px solid #146eb4;
+            border-radius: 20px;
+            padding: 5px 50px;
+            transition: 0.2s;
+        }
+        .card:hover
+        {
+            transform: scale(1.01);
+            box-shadow: #3a5f7a 5px 5px;
+        }
+        .card p
+        {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            color: black;
+        }
+        .login-div
+        {
+            height: fit-content;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-div">
+        <div class="logo">
+            <img src="/images/img.png" alt="">
+        </div>
+        <div class="title">Mr.XYZ</div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="head"><h2>Previous Medical Diagnosis</h1></div>
+            <div class="card">
+                <p>Patient's Name: Mr. XYZ</p>
+                <p>Hospital: demo</p>
+                <p>Admitted For: demo</p>
+                <p>Room Number: demo</p>
+                <p>Bed Number: demo</p>
+                <p>Complications(If any): demo</p>
+                <p>Doctor Incharge: demo </p>
+                <p>Admit Date: demo</p>
+                <p>Discharge Date: demo</p>
+                <p>Total Charge: demo</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

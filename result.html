@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card
+        {
+            border: none;
+            outline:none;
+            background: none;
+            font-size: 18px;
+            color: #555;
+            padding:20px 10px 20px 5px;
+            height: 10vh;
+            text-align: center;
+        }
+        button
+        {
+            text-decoration: none;
+            border: none;
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 1em;
+            height: 10vh;
+        }
+        .signin-button
+        {
+            height: 10vh;
+        }
+        .login-div
+        {
+            display: flex;
+            flex-direction: column;
+            width: max-content;
+        }
+        .logo 
+        {
+            background:url("images/logo_1.svg");
+            width:150px;
+            height:150px;
+            border-radius: 50%;
+            margin:0 auto;
+            box-shadow: 
+            /* logo shadow */
+            0px 0px 2px #5f5f5f,
+            /* offset */
+            0px 0px 0px 5px #ecf0f3,
+            /*bottom right */
+            8px 8px 15px #a7aaaf,
+            /* top left */
+            -8px -8px 15px #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .fields
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .fields 
+        {
+            width: 100%;
+            padding: 0px 5px 5px 5px;
+        }
+        .temp
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .title 
+        {
+            margin-top: 30px;
+            margin-left: 130px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            width: max-content;
+            flex-direction: column;
+            padding: 5px 80px;
+            max-height: fit-content;
+        }
+        .title p
+        {
+            margin-top: -15px;
+        }
+        .signin-button 
+        {
+            outline: none;
+            border: none;
+            cursor: pointer;
+            width: 90%;
+            height: 60px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Lato', sans-serif;
+            color: #fff;
+            text-align: center;
+            background: #146eb4;
+            box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+            transition: 0.2s;
+        }
+        .login-div a
+        {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login-div">
+        <a href="profile.html">
+        <div class="temp">
+            <div class="logo">
+                <img src="/images/img1.png" alt="">
+            </div>
+            <div class="title">
+                <p class="data">Name: Mr. XYZ</p>
+                <p class="data">Age: 65</p>
+                <p class="data">Sex: Male</p>
+            </div>
+        </div>
+        </a>
+        <div class="fields">
+           <div class="data">
+            <a href="ogr.html"><button class="signin-button">Current Medical Diagnosis</button></a> 
+            <a href="previous.html"><button class="signin-button">Previous Record</button></a>
+           </div>
+           <div class="data">
+            <a href="nbyhos.html"><button class="signin-button">Hospitals Nearby</button></a>
+            <a href="hodpid.html"><button class="signin-button">Estimation</button></a>
+           </div>
+        </div>
+    </div>
+        <!-- <button class="signin-button">Login</button> -->
+</body>
+</html>
